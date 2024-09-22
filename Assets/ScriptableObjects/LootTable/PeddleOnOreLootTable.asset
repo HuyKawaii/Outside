@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a850260d37fb1d4abc23f9b95106630, type: 3}
+  m_Name: PeddleOnOreLootTable
+  m_EditorClassIdentifier: 
+  value: 0
+  LootList:
+  - rid: 6471707164548005892
+  - rid: 6471707164548005893
+  references:
+    version: 2
+    RefIds:
+    - rid: 6471707164548005892
+      type: {class: ItemLoot, ns: , asm: Assembly-CSharp}
+      data:
+        dropChance: 0.8
+        item:
+          item: {fileID: 11400000, guid: 609024d01d214ee45b5f164637e697a9, type: 2}
+          count: 2
+    - rid: 6471707164548005893
+      type: {class: ItemLoot, ns: , asm: Assembly-CSharp}
+      data:
+        dropChance: 0.2
+        item:
+          item: {fileID: 11400000, guid: 609024d01d214ee45b5f164637e697a9, type: 2}
+          count: 3

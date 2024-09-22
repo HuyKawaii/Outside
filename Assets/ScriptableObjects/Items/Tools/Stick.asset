@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c334ae853517703438254fa310a46732, type: 3}
+  m_Name: Stick
+  m_EditorClassIdentifier: 
+  name: 13
+  description: It's a stick. What do you expect ?
+  isStackable: 1
+  count: 1
+  sprite: {fileID: 21300000, guid: d0f5e33b1c45a34479ae98eb5d909f18, type: 3}
+  mesh: {fileID: 8416756315443233379, guid: e6ed188aeeca1aa4db33c12ef188cc9d, type: 3}
+  itemPickupPrefab: {fileID: 8918182818929436863, guid: 8763648a9d466f542b49b8182ba29f1a, type: 3}
+  itemGraphic: {fileID: 2928413822068605625, guid: b718dd717f5023049975d627a7ded2e0, type: 3}

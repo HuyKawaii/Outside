@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c939bfbbef09dee4dbd7cfdaf7910e1e, type: 3}
+  m_Name: HealingMushroom
+  m_EditorClassIdentifier: 
+  STACKLIMIT: 64
+  name: 25
+  description: Eat to heal
+  isStackable: 1
+  sprite: {fileID: 21300000, guid: a6f8d730bdfdf3246abc8780394b441d, type: 3}
+  mesh: {fileID: 0}
+  itemPickupPrefab: {fileID: 8918182818929436863, guid: 950e88ee3da91f34f8ee20f9f5cc7d4a, type: 3}
+  itemGraphic: {fileID: 6365616183192419695, guid: 5e287f359423fc5478a3ed90107f5603, type: 3}
+  consumeOnUse: 1
+  effects:
+  - rid: 9064048881488887808
+  - rid: 9064048881488887809
+  holdingRotation: {x: 0, y: 0, z: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 9064048881488887808
+      type: {class: HealEffect, ns: , asm: Assembly-CSharp}
+      data:
+        healAmount: 10
+    - rid: 9064048881488887809
+      type: {class: Restore, ns: , asm: Assembly-CSharp}
+      data:
+        nutrientValue: 5

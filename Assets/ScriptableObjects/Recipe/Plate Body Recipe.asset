@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46afd66d6f0453b4eaeded3f57ef45a7, type: 3}
+  m_Name: Plate Body Recipe
+  m_EditorClassIdentifier: 
+  outputItem:
+    item: {fileID: 11400000, guid: 677af0428d318e34fab2b9a1dbb19ea5, type: 2}
+    count: 1
+  inputItemList:
+  - item: {fileID: 11400000, guid: 4690cefc1fa71f0429e870c87719598b, type: 2}
+    count: 5

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c939bfbbef09dee4dbd7cfdaf7910e1e, type: 3}
+  m_Name: NormalMushroom
+  m_EditorClassIdentifier: 
+  STACKLIMIT: 64
+  name: 26
+  description: 
+  isStackable: 1
+  sprite: {fileID: 21300000, guid: 841308e1283c34e4eae871943dfcbfd6, type: 3}
+  mesh: {fileID: 0}
+  itemPickupPrefab: {fileID: 8918182818929436863, guid: c7b8cbe64035f4c4e871aa6be3700e16, type: 3}
+  itemGraphic: {fileID: 528002942174767149, guid: 2bb759e6cc037854d90ef18ad5dd2d45, type: 3}
+  consumeOnUse: 1
+  effects:
+  - rid: 9064048881488887810
+  holdingRotation: {x: 0, y: 0, z: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 9064048881488887810
+      type: {class: Restore, ns: , asm: Assembly-CSharp}
+      data:
+        nutrientValue: 10

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c334ae853517703438254fa310a46732, type: 3}
+  m_Name: Diamon
+  m_EditorClassIdentifier: 
+  name: 17
+  description: It's not diamond
+  isStackable: 1
+  count: 1
+  sprite: {fileID: 21300000, guid: 2ea540369c6e6ff4a9547d778e75a9a5, type: 3}
+  mesh: {fileID: 0}
+  itemPickupPrefab: {fileID: 8918182818929436863, guid: 0448ae27dfa6f2749ab64d21576048e8, type: 3}
+  itemGraphic: {fileID: 2928216517065194066, guid: 5f8644355861a67499e4851c64ecf157, type: 3}

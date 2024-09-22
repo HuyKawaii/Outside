@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482fb9d595bc664409288f3d896922f9, type: 3}
+  m_Name: DefaultTextureData
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  terrains:
+  - color: {r: 0.22435024, g: 0.47010875, b: 0.8679245, a: 0}
+    maxHeight: 0.05
+  - color: {r: 0.7924528, g: 0.765194, b: 0.19736558, a: 0}
+    maxHeight: 0.17
+  - color: {r: 0.4156863, g: 0.5921569, b: 0.09019608, a: 1}
+    maxHeight: 0.6
+  - color: {r: 0.6226415, g: 0.34135213, b: 0.13157704, a: 0}
+    maxHeight: 1
+  grassTexture: {fileID: 2800000, guid: fb653401025e80546a5fcbd8fc275f40, type: 3}
+  sandTexture: {fileID: 2800000, guid: 0455315a1844eb04c887205a7717b846, type: 3}

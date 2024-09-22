@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35803a0bb0256a44b39e41a72e6e6e3, type: 3}
+  m_Name: DiamonAxe
+  m_EditorClassIdentifier: 
+  STACKLIMIT: 64
+  name: 22
+  description: 
+  isStackable: 0
+  sprite: {fileID: 21300000, guid: 9584d67e441aff443957d8ee53c0c15d, type: 3}
+  mesh: {fileID: 0}
+  itemPickupPrefab: {fileID: 8918182818929436863, guid: 009bdfd1dcdcd3244aaf05c87f15f73f, type: 3}
+  itemGraphic: {fileID: 7914160311894847541, guid: 7fbc91150aea3824e9fd3560d3f78504, type: 3}
+  consumeOnUse: 0
+  effects: []
+  holdingRotation: {x: 0, y: 150, z: 180}
+  holdingPosition: {x: 0, y: 0, z: 0}
+  equipSlot: 4
+  coveredMeshRegions: 01000000
+  armorModifier: 0
+  damageModifier: 10
+  toolLevel: 4
+  toolType: 0
+  references:
+    version: 2
+    RefIds: []
